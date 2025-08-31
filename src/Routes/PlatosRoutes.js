@@ -62,6 +62,4 @@ router.patch("/:id/disponibilidad", (req, res) => {
   }
 });
 
-
-
 module.exports = router;
