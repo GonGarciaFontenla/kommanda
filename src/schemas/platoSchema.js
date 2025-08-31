@@ -10,7 +10,8 @@ const platoSchema = z.object ({
       TipoPlato.POSTRE,
       TipoPlato.BEBIDA
   ]),
-  precio: z.number().positive('El precio debe ser un número positivo')
+  precio: z.number().positive('El precio debe ser un número positivo'),
+  disponible: z.boolean()
 });
 
 //Permite hacer updates...
